@@ -1,0 +1,97 @@
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: hsl(217, 54%, 11%);
+  color: hsl(0, 0%, 100%);
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+
+/* image */
+.card-img img {
+  filter: blur(0.7px);
+
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+
+/* section*/
+.card {
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 20px;
+  padding: 20px;
+}
+/* Equilibrium text*/
+.Equilibrium-tittle h1 {
+  color: whites;
+  margin-top: auto;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 800;
+}
+/*Paragraph-text*/
+.content-details {
+  color: hsl(215, 51%, 70%);
+  margin-top: auto;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 100;
+}
+
+.Date-equilibrum {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.ETH-details {
+  color: hsl(178, 100%, 50%);
+  align-items: center;
+  gap: 7px;
+  display: flex;
+}
+.Clock-icon-date {
+  color: hsl(215, 51%, 70%);
+  display: flex;
+  gap: 7px;
+  align-items: center;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.detail {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  gap: 11px;
+  height: fit-content;
+  justify-content: first baseline;
+  display: flex; /* Aligns children (img and text div) in a row */
+  align-items: center; /* Centers items vertically */
+}
+
+.detail img {
+  border-radius: 50%;
+  border: solid;
+  object-fit: contain;
+  height: 30px; /* Example fixed height */
+  object-fit: cover; /* Ensures the image covers the area without distorting aspect ratio */
+}
+
+.detail .text {
+  box-sizing: border-box; /* Includes padding in the width calculation */
+}
+.Creation-author {
+  color: hsl(215, 51%, 70%);
+}
